@@ -1,0 +1,320 @@
+/*--------------------------------------------NavBar---------------------------------------------------------*/
+
+li > .links {
+  color: white;
+}
+
+ul > li {
+  margin-right: 4vw;
+}
+.navbar-nav > .nav-item > .nav-link {
+  color: white;
+}
+.navbar-nav > .nav-item > .nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+.navbar-nav > .nav-item > .nav-link:active {
+  color: white;
+  text-decoration: underline;
+  border: none;
+}
+
+form > .customizeButton {
+  background-color: #960037;
+  color: white;
+  border-color: #960037;
+  border-radius: 0 30px 30px 0;
+}
+form > .customizeButton:hover {
+  background-color: #f13b7e; 
+  border-color: #f13b7e;
+}
+
+form > .s-bar {
+  border-radius: 30px 0 0 30px;
+}
+
+.hr-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  width: 80%;
+}
+
+.custom-hr {
+  width: 80%;
+  height: 1px;
+  background-color: white;
+  border: none;
+  margin: 0;
+}
+
+
+
+
+/*---------------------------------------------------HomeCover--------------------------------------------------*/
+.tag-div {
+  position: relative;
+}
+.tag-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 15vh;
+  text-shadow: 4px 4px 8px #f13b7e;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.designImg {
+  width: 300px;
+  height: 150px;
+  margin-left: 50vw;
+  padding-top: 1.8vh;
+}
+
+/*--------------------------------------------------Slider------------------------------------------------------*/
+.carousel-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.the-card > .custom-card {
+  width: 18rem; 
+  height: 20rem; 
+  margin: 20px; 
+  background-color: white;
+  box-shadow: 4px 4px 8px #f13b7e;
+}
+
+/* .card-tag > .customizeButton {
+  background-color: #960037;
+  color: white;
+  border-color: #960037;
+  border-radius: 30px;
+}
+.card-tag > .customizeButton:hover {
+  background-color: #f13b7e; 
+  border-color: #f13b7e;
+} */
+.card-tag > .cardLine {
+  color: #960037;
+  text-shadow:  2px 2px 4px #a2a2a2;
+  margin-top: 6vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+}
+.card-tag > h1 {
+  margin-top: 2vh;
+  text-shadow:  2px 2px 4px #a2a2a2;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+
+.custom-card {
+  flex: 1 1 auto;
+  margin: 10px;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.card-container > .carousel-cards {
+  width: 14rem;
+  height: 16rem;
+  margin: 20px; 
+  color: white;
+  background-color: #a2a2a2;
+  box-shadow: 4px 4px 8px #960037;
+}
+
+/*-----------------------------------------------------ViewProduct----------------------------------------------*/
+.cart-btn > .customizeButton {
+  background-color: #960037;
+  color: white;
+  border-color: #960037;
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 4vh;
+}
+.cart-btn > .customizeButton:hover {
+  background-color: #f13b7e; 
+  border-color: #f13b7e;
+  color: white;
+}
+
+.review-div > .customizeButton {
+  background-color: #960037;
+  color: white;
+  border-color: #960037;
+  width: 20%;
+  border-radius: 30px;
+  margin-top: 2vh;
+  padding: 4px;
+  margin-left: 0.8vw;
+}
+.review-div > .customizeButton:hover {
+  background-color: #f13b7e; 
+  border-color: #f13b7e;
+  color: white;
+}
+
+/*--------------------------------------------ShoppingCart-----------------------------------------------------*/
+.quantity > .customizeButton{
+  background-color: #960037;
+  color: white;
+  border-color: #960037; 
+}
+.quantity > .customizeButton:hover{
+  background-color: #f13b7e; 
+  border-color: #f13b7e;
+  color: white;
+}
+
+.checkout > .customizeButton {
+  background-color: #960037;
+  color: white;
+  border-color: #960037;
+}
+.checkout > .customizeButton:hover {
+  background-color: #f13b7e; 
+  border-color: #f13b7e;
+  color: white;
+}
+
+/*----------------------------------------------------SignIn----------------------------------------------------*/
+.signin-form > div {
+  width: 500px;
+}
+.signin-form > button {
+  width:500px;
+  border-radius: 30px;
+  margin-top: 1vh;
+  background-color: #960037;
+  color: white;
+  border-color: #960037;
+}
+.signin-form > button:hover {
+  background-color: #f13b7e; 
+  border-color: #f13b7e;
+  color: white;
+}
+
+/*-------------------------------------------------PaymentMethod--------------------------------------------------*/
+.payment-check > button {
+  width:100%;
+  border-radius: 30px;
+  margin-top: 1vh;
+  background-color: #960037;
+  color: white;
+  border-color: #960037;
+}
+
+.payment-check > button:hover {
+  background-color: #f13b7e; 
+  border-color: #f13b7e;
+  color: white;
+}
+
+
+
+/*-----------------------------------------------PreviewOrder----------------------------------------------------*/
+.order-total > .customizeButton {
+  background-color: #960037;
+  color: white;
+  border-color: #960037;
+  border-radius: 30px;
+  width: 80%;
+}
+.order-total > .customizeButton:hover {
+  background-color: #f13b7e; 
+  border-color: #f13b7e;
+  color: white;
+}
+
+.details > .hide {
+  display: none;
+  margin-top: 2rem;
+}
+
+.details-btn > .customizeButton {
+  background-color: #960037;
+  color: white;
+  border-color: #960037;
+  border-radius: 30px;
+}
+.details-btn > .customizeButton:hover {
+  background-color: #f13b7e; 
+  border-color: #f13b7e;
+  color: white;
+}
+
+
+@media screen and (max-width: 450px) {
+  .linkList > ul {
+    padding-left: 4vw;
+  }
+  .tag-div > .designImg {
+    width: 200px;
+    height: 100px;
+    margin-left: 50vw;
+    padding-top: 1.8vh;
+  }
+  .the-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  .the-card > .custom-card {
+    width: 25rem; 
+    height: 6rem; 
+    background-color: white;
+    box-shadow: 4px 4px 8px #f13b7e;
+    justify-content: center;
+    align-items: center;
+  }
+ .card-tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .card-tag > h1 {
+    margin-top: 1vh;
+  }
+  .card-tag > .cardLine {
+    margin-top: 1vh;
+  }
+  .carousel > .carousel-inner {
+    height: 22rem;
+  }
+  .quantity > input {
+    width: 60%;
+  }
+  .signin-form > div {
+    width: 300px;
+  }
+  .signin-form > button {
+    width:300px;
+    border-radius: 30px;
+  }
+  .details > .hide {
+    display: block;
+  }
+}
+
